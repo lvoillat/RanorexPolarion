@@ -2555,7 +2555,7 @@ AKKKKAP/2Q==
 			</helperscreenshot>
 		</mouseitem>
 		<keysequenceitem
-		KeySequence="System Requirement for Ranorex"
+		KeySequence="System Requirement for Ranorex and Jenkins"
 		duration="20ms"
 		enabled="True"
 		optional="False"

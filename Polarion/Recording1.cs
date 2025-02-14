@@ -135,8 +135,8 @@ namespace Polarion
             repo.Login.SomeBodyTag.Click("243;51");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'System Requirement for Ranorex' with focus on 'Login.SomeBodyTag'.", repo.Login.SomeBodyTagInfo, new RecordItemIndex(14));
-            repo.Login.SomeBodyTag.PressKeys("System Requirement for Ranorex");
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'System Requirement for Ranorex and Jenkins' with focus on 'Login.SomeBodyTag'.", repo.Login.SomeBodyTagInfo, new RecordItemIndex(14));
+            repo.Login.SomeBodyTag.PressKeys("System Requirement for Ranorex and Jenkins");
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Login.SaveToCreateCTRLPlusS' at 11;14.", repo.Login.SaveToCreateCTRLPlusSInfo, new RecordItemIndex(15));
