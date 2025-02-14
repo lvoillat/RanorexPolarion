@@ -1,0 +1,181 @@
+﻿<repository
+id="de497acb-8fc3-4b95-bed7-38af560f280a"
+name="PolarionRepository">
+	<codegen
+	classname="PolarionRepository"
+	namespace="Polarion">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="bec37f0b-6dd8-44a9-92a2-ef938304f3db"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="9ac95ba9-0a98-46ec-80e3-8f0acc1cddd9"
+		isrooted="True"
+		name="Login"
+		refimgid="f0a2a968-42ef-4104-9d37-1d40509d5c00"
+		refpath="/dom[@domain='pl1chzrh0298nb']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="6147a055-2e3b-4b35-9f3a-8f53f6091652"
+			name="JUsername"
+			refimgid="fbb76963-f653-4c03-9d3f-54a0bc4ea608"
+			refpath="/dom[@domain='pl1chzrh0298nb']//input[#'j_username']"
+			robustPath="/dom[@domain='pl1chzrh0298nb']//input[#'j_username']"
+			searchtimeout="30000ms">
+				/dom[@domain='pl1chzrh0298nb']//input[#'j_username']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="2c3dc057-953f-42b6-9152-5bed6490eb4e"
+			name="JPassword"
+			refimgid="231e7039-3034-42d4-b197-f9447d4568e8"
+			refpath="/dom[@domain='pl1chzrh0298nb']//input[#'j_password']"
+			robustPath="/dom[@domain='pl1chzrh0298nb']//input[#'j_password']"
+			searchtimeout="30000ms">
+				/dom[@domain='pl1chzrh0298nb']//input[#'j_password']
+			</item>
+			<item
+			addcaps="button,webelement,buttontag"
+			capname="buttontag"
+			id="80334c63-d47b-4769-93db-b8cfea84032d"
+			name="SubmitButton"
+			refimgid="a92f02f8-a485-4327-86a1-8ee48d934995"
+			refpath="/dom[@domain='pl1chzrh0298nb']//button[#'submitButton']"
+			robustPath="/dom[@domain='pl1chzrh0298nb']//button[#'submitButton']"
+			searchtimeout="30000ms">
+				/dom[@domain='pl1chzrh0298nb']//button[#'submitButton']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="33d4f2c3-468d-470d-929a-f6491a15056e"
+			name="CREATE"
+			refimgid="fa5b2741-4e72-4590-bbd9-f438a8be6f96"
+			refpath="/dom[@domain='pl1chzrh0298nb']//div[#'gwt-debug-polarion-PortalBase-FlowPanel']/div[2]/div/div[@title>'Quick Create - Create new']/span[@innertext='CREATE...']"
+			robustPath="/dom[@domain='pl1chzrh0298nb']//div[#'gwt-debug-polarion-PortalBase-FlowPanel']//span[@innertext='CREATE...']"
+			searchtimeout="30000ms">
+				/dom[@domain='pl1chzrh0298nb']//div[#'gwt-debug-polarion-PortalBase-FlowPanel']//div[@title&gt;'Quick Create - Create new']/span[@innertext='CREATE...']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="06db9bc6-ef0c-4f26-aa47-88d143d9f464"
+			name="AFunctionalOrBehavioralRequirementT"
+			refimgid="5615b6f3-2ef1-4da8-9a26-97fe3337ba73"
+			refpath="/dom[@domain='pl1chzrh0298nb']//div[#'quickCreateDialog']/div/div/div[8]/div/div/div[1]/div[3]/div/div[4]/div/div/div/div/div[1]/div/div[2]/div/div/div[2]/span[@title>'A functional or behavioral']"
+			robustPath="/dom[@domain='pl1chzrh0298nb']//div[#'quickCreateDialog']//span[@title>'A functional or behavioral']"
+			searchtimeout="30000ms">
+				/dom[@domain='pl1chzrh0298nb']//div[#'quickCreateDialog']/div/div/div[8]/div/div/div[1]/div[3]/div/div[4]/?/?/div[@id='gwt-debug-polarion-rpe-preview-debug-id']/div/div/div[1]/div/div[2]/div[@id='polarion-rp-widget-content']/div/div[2]/span[@title&gt;'A functional or behavioral']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="18bc71a2-2c0c-4f40-965c-19595de6f1a6"
+			name="Text"
+			refimgid="bbdc2354-d166-4589-811c-e34ff6576973"
+			refpath="/dom[@domain='pl1chzrh0298nb']//div[#'_ui_form_layouter']/div/div/table/tbody/tr/td[2]/table/tbody/tr/td[2]/div/input[@type='text']"
+			robustPath="/dom[@domain='pl1chzrh0298nb']//div[#'_ui_form_layouter']//input[@type='text']"
+			searchtimeout="30000ms">
+				/dom[@domain='pl1chzrh0298nb']//div[#'_ui_form_layouter']/div/div/table/?/?/tr/td[2]/table//input[@type='text']
+			</item>
+			<item
+			addcaps="unknown,webelement,bodytag"
+			capname="bodytag"
+			id="782d49f6-c44b-4be7-932e-aff7ecbfee24"
+			name="SomeBodyTag"
+			refimgid="82f9d154-9acc-41e9-998e-208651806e65"
+			refpath="/dom[@domain='pl1chzrh0298nb']//iframe[#'gwt-debug-polarion-rte-area-debug-id']/body"
+			robustPath="/dom[@domain='pl1chzrh0298nb']//iframe[#'gwt-debug-polarion-rte-area-debug-id']/body"
+			searchtimeout="30000ms">
+				/dom[@domain='pl1chzrh0298nb']//iframe[#'gwt-debug-polarion-rte-area-debug-id']/body
+			</item>
+			<item
+			addcaps="unknown,webelement,imgtag"
+			capname="imgtag"
+			id="d0c75e98-76f6-412c-94c3-c19609bef372"
+			name="ShouldHave"
+			refimgid="8bbb2b70-5f97-425a-9e9e-5f0e5d24f8a1"
+			refpath="/dom[@domain='pl1chzrh0298nb']//td[#'FIELD_severity']/div/div[2]/table/tbody/tr/td[3]/img[@title='Should Have']"
+			robustPath="/dom[@domain='pl1chzrh0298nb']//td[#'FIELD_severity']//img[@title='Should Have']"
+			searchtimeout="30000ms">
+				/dom[@domain='pl1chzrh0298nb']//td[#'FIELD_severity']//table/?/?/tr/td[3]/img[@title='Should Have']
+			</item>
+			<item
+			addcaps="unknown,webelement,tdtag"
+			capname="tdtag"
+			id="7083d624-9190-413f-a11e-e4b257c1993c"
+			name="MustHave"
+			refimgid="9fd863ea-529f-40a9-ad87-9dc9e8bd6d6d"
+			refpath="/dom[@domain='pl1chzrh0298nb']/body/div[5]/div[2]/table/tbody/tr[1]/td[@title='Must Have' and @innertext='Must Have']"
+			robustPath="/dom[@domain='pl1chzrh0298nb']//td[@innertext='Must Have']"
+			searchtimeout="30000ms">
+				/dom[@domain='pl1chzrh0298nb']/body/div[5]/div[2]/table/tbody/tr[1]/td[@innertext='Must Have']
+			</item>
+			<item
+			addcaps="unknown,webelement,tdtag"
+			capname="tdtag"
+			id="ba5f2890-4aa3-468a-94ca-ae95235c4705"
+			name="SaveToCreateCTRLPlusS"
+			refimgid="74c7f632-87d2-42f2-adec-58287b97f330"
+			refpath="/dom[@domain='pl1chzrh0298nb']//table[#'_ui_toolbar']/tbody/tr/td[4]/table/tbody/tr/td[@title='Save to Create (CTRL + S)' and @innertext='Save']"
+			robustPath="/dom[@domain='pl1chzrh0298nb']//table[#'_ui_toolbar']//td[@innertext='Save']"
+			searchtimeout="30000ms">
+				/dom[@domain='pl1chzrh0298nb']//table[#'_ui_toolbar']/?/?/tr/td[4]/table//td[@innertext='Save']
+			</item>
+			<item
+			addcaps="unknown,webelement,imgtag"
+			capname="imgtag"
+			id="87071c6c-4f8d-4d96-b321-517323bd5493"
+			name="HttpPl1chzrh0298nbPolarionRiaImage"
+			refimgid="625d3c17-79fc-4ccc-b29c-81de71661062"
+			refpath="/dom[@domain='pl1chzrh0298nb']//div[#'gwt-debug-polarion-SideArea-BasePanel']/table/tbody/tr[1]/td/div/table/tbody/tr/td[1]/div/table/tbody/tr/td/img[@src='http://pl1chzrh0298nb/polarion/ria/images/portal/lite_settings_off.svg']"
+			robustPath="/dom[@domain='pl1chzrh0298nb']//div[#'gwt-debug-polarion-SideArea-BasePanel']//img[@src='http://pl1chzrh0298nb/polarion/ria/images/portal/lite_settings_off.svg']"
+			searchtimeout="30000ms">
+				/dom[@domain='pl1chzrh0298nb']//div[#'gwt-debug-polarion-SideArea-BasePanel']/table/tbody/tr[1]//table/?/?/tr/td[1]/div[@title='Show Settings']/table//img[@src='http://pl1chzrh0298nb/polarion/ria/images/portal/lite_settings_off.svg']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="13821d96-c512-4225-9412-682196a5e9ec"
+			name="Logout"
+			refimgid="00cf02e9-5d31-4ad3-9a02-b8418607c468"
+			refpath="/dom[@domain='pl1chzrh0298nb']//div[#'gwt-debug-polarion-SideArea-BasePanel']/div/table/tbody/tr[2]/td/div/div/div[@innertext='Logout']"
+			robustPath="/dom[@domain='pl1chzrh0298nb']//div[#'gwt-debug-polarion-SideArea-BasePanel']//div[@innertext='Logout']"
+			searchtimeout="30000ms">
+				/dom[@domain='pl1chzrh0298nb']//div[#'gwt-debug-polarion-SideArea-BasePanel']/div/table/tbody/tr[2]//div[@innertext='Logout']
+			</item>
+			<basepath>
+				/dom[@domain='pl1chzrh0298nb']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

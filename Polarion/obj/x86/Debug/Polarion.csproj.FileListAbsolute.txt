@@ -1,0 +1,12 @@
+C:\LCS\Git_repo\PolarionRanorex\Polarion\bin\Debug\Polarion.rxtmg
+C:\LCS\Git_repo\PolarionRanorex\Polarion\bin\Debug\Polarion.rxtst
+C:\LCS\Git_repo\PolarionRanorex\Polarion\bin\Debug\Polarion.exe.config
+C:\LCS\Git_repo\PolarionRanorex\Polarion\bin\Debug\Polarion.xml
+C:\LCS\Git_repo\PolarionRanorex\Polarion\bin\Debug\Polarion.exe
+C:\LCS\Git_repo\PolarionRanorex\Polarion\bin\Debug\Polarion.pdb
+C:\LCS\Git_repo\PolarionRanorex\Polarion\bin\Debug\Ranorex.Core.Resolver.dll
+C:\LCS\Git_repo\PolarionRanorex\Polarion\obj\x86\Debug\Polarion.csproj.AssemblyReference.cache
+C:\LCS\Git_repo\PolarionRanorex\Polarion\obj\x86\Debug\Polarion.csproj.CoreCompileInputs.cache
+C:\LCS\Git_repo\PolarionRanorex\Polarion\obj\x86\Debug\Polarion.csproj.CopyComplete
+C:\LCS\Git_repo\PolarionRanorex\Polarion\obj\x86\Debug\Polarion.exe
+C:\LCS\Git_repo\PolarionRanorex\Polarion\obj\x86\Debug\Polarion.pdb

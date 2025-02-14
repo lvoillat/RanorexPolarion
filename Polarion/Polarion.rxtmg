@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="Polarion"
+      id="38e237ae-7c08-4d71-b94c-654264995616"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="Polarion"
+      id="38e237ae-7c08-4d71-b94c-654264995616"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

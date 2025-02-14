@@ -1,0 +1,319 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Polarion</name>
+    </assembly>
+    <members>
+        <member name="T:Polarion.CloseAUT">
+             <summary>
+            The CloseAUT recording.
+             </summary>
+        </member>
+        <member name="F:Polarion.CloseAUT.repo">
+            <summary>
+            Holds an instance of the PolarionRepository repository.
+            </summary>
+        </member>
+        <member name="M:Polarion.CloseAUT.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Polarion.CloseAUT.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:Polarion.CloseAUT.CloseAutProcessIDVar">
+            <summary>
+            Gets or sets the value of variable CloseAutProcessIDVar.
+            </summary>
+        </member>
+        <member name="M:Polarion.CloseAUT.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Polarion.CloseAUT.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Polarion.CloseAUT.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Polarion.CloseAUT.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Polarion.PolarionRepository">
+            <summary>
+            The class representing the PolarionRepository element repository.
+            </summary>
+        </member>
+        <member name="P:Polarion.PolarionRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the PolarionRepository element repository.
+            </summary>
+        </member>
+        <member name="M:Polarion.PolarionRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:Polarion.PolarionRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Polarion.PolarionRepository.Login">
+            <summary>
+            The Login folder.
+            </summary>
+        </member>
+        <member name="T:Polarion.PolarionRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:Polarion.PolarionRepositoryFolders.LoginAppFolder">
+            <summary>
+            The LoginAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Polarion.PolarionRepositoryFolders.LoginAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Login  folder.
+            </summary>
+        </member>
+        <member name="P:Polarion.PolarionRepositoryFolders.LoginAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Polarion.PolarionRepositoryFolders.LoginAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Polarion.PolarionRepositoryFolders.LoginAppFolder.JUsername">
+            <summary>
+            The JUsername item.
+            </summary>
+        </member>
+        <member name="P:Polarion.PolarionRepositoryFolders.LoginAppFolder.JUsernameInfo">
+            <summary>
+            The JUsername item info.
+            </summary>
+        </member>
+        <member name="P:Polarion.PolarionRepositoryFolders.LoginAppFolder.JPassword">
+            <summary>
+            The JPassword item.
+            </summary>
+        </member>
+        <member name="P:Polarion.PolarionRepositoryFolders.LoginAppFolder.JPasswordInfo">
+            <summary>
+            The JPassword item info.
+            </summary>
+        </member>
+        <member name="P:Polarion.PolarionRepositoryFolders.LoginAppFolder.SubmitButton">
+            <summary>
+            The SubmitButton item.
+            </summary>
+        </member>
+        <member name="P:Polarion.PolarionRepositoryFolders.LoginAppFolder.SubmitButtonInfo">
+            <summary>
+            The SubmitButton item info.
+            </summary>
+        </member>
+        <member name="P:Polarion.PolarionRepositoryFolders.LoginAppFolder.CREATE">
+            <summary>
+            The CREATE item.
+            </summary>
+        </member>
+        <member name="P:Polarion.PolarionRepositoryFolders.LoginAppFolder.CREATEInfo">
+            <summary>
+            The CREATE item info.
+            </summary>
+        </member>
+        <member name="P:Polarion.PolarionRepositoryFolders.LoginAppFolder.AFunctionalOrBehavioralRequirementT">
+            <summary>
+            The AFunctionalOrBehavioralRequirementT item.
+            </summary>
+        </member>
+        <member name="P:Polarion.PolarionRepositoryFolders.LoginAppFolder.AFunctionalOrBehavioralRequirementTInfo">
+            <summary>
+            The AFunctionalOrBehavioralRequirementT item info.
+            </summary>
+        </member>
+        <member name="P:Polarion.PolarionRepositoryFolders.LoginAppFolder.Text">
+            <summary>
+            The Text item.
+            </summary>
+        </member>
+        <member name="P:Polarion.PolarionRepositoryFolders.LoginAppFolder.TextInfo">
+            <summary>
+            The Text item info.
+            </summary>
+        </member>
+        <member name="P:Polarion.PolarionRepositoryFolders.LoginAppFolder.SomeBodyTag">
+            <summary>
+            The SomeBodyTag item.
+            </summary>
+        </member>
+        <member name="P:Polarion.PolarionRepositoryFolders.LoginAppFolder.SomeBodyTagInfo">
+            <summary>
+            The SomeBodyTag item info.
+            </summary>
+        </member>
+        <member name="P:Polarion.PolarionRepositoryFolders.LoginAppFolder.ShouldHave">
+            <summary>
+            The ShouldHave item.
+            </summary>
+        </member>
+        <member name="P:Polarion.PolarionRepositoryFolders.LoginAppFolder.ShouldHaveInfo">
+            <summary>
+            The ShouldHave item info.
+            </summary>
+        </member>
+        <member name="P:Polarion.PolarionRepositoryFolders.LoginAppFolder.MustHave">
+            <summary>
+            The MustHave item.
+            </summary>
+        </member>
+        <member name="P:Polarion.PolarionRepositoryFolders.LoginAppFolder.MustHaveInfo">
+            <summary>
+            The MustHave item info.
+            </summary>
+        </member>
+        <member name="P:Polarion.PolarionRepositoryFolders.LoginAppFolder.SaveToCreateCTRLPlusS">
+            <summary>
+            The SaveToCreateCTRLPlusS item.
+            </summary>
+        </member>
+        <member name="P:Polarion.PolarionRepositoryFolders.LoginAppFolder.SaveToCreateCTRLPlusSInfo">
+            <summary>
+            The SaveToCreateCTRLPlusS item info.
+            </summary>
+        </member>
+        <member name="P:Polarion.PolarionRepositoryFolders.LoginAppFolder.HttpPl1chzrh0298nbPolarionRiaImage">
+            <summary>
+            The HttpPl1chzrh0298nbPolarionRiaImage item.
+            </summary>
+        </member>
+        <member name="P:Polarion.PolarionRepositoryFolders.LoginAppFolder.HttpPl1chzrh0298nbPolarionRiaImageInfo">
+            <summary>
+            The HttpPl1chzrh0298nbPolarionRiaImage item info.
+            </summary>
+        </member>
+        <member name="P:Polarion.PolarionRepositoryFolders.LoginAppFolder.Logout">
+            <summary>
+            The Logout item.
+            </summary>
+        </member>
+        <member name="P:Polarion.PolarionRepositoryFolders.LoginAppFolder.LogoutInfo">
+            <summary>
+            The Logout item info.
+            </summary>
+        </member>
+        <member name="T:Polarion.Recording1">
+             <summary>
+            The Recording1 recording.
+             </summary>
+        </member>
+        <member name="F:Polarion.Recording1.repo">
+            <summary>
+            Holds an instance of the PolarionRepository repository.
+            </summary>
+        </member>
+        <member name="M:Polarion.Recording1.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Polarion.Recording1.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Polarion.Recording1.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Polarion.Recording1.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Polarion.Recording1.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Polarion.Recording1.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Polarion.StartAUT">
+             <summary>
+            The StartAUT recording.
+             </summary>
+        </member>
+        <member name="F:Polarion.StartAUT.repo">
+            <summary>
+            Holds an instance of the PolarionRepository repository.
+            </summary>
+        </member>
+        <member name="M:Polarion.StartAUT.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Polarion.StartAUT.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:Polarion.StartAUT.StartAutProcessIDVar">
+            <summary>
+            Gets or sets the value of variable StartAutProcessIDVar.
+            </summary>
+        </member>
+        <member name="M:Polarion.StartAUT.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Polarion.StartAUT.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Polarion.StartAUT.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Polarion.StartAUT.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

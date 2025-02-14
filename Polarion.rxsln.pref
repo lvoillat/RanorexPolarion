@@ -1,0 +1,12 @@
+﻿<Properties>
+  <Array name="active" />
+  <ActiveConfiguration value="Debug" />
+  <ActivePlatform value="x86" />
+  <Array name="bookmarks" />
+  <Array name="files" />
+  <SerializedValue name="ModuleBrowserState">
+    <ArrayOfString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+  </SerializedValue>
+  <ProjectBrowserState value="[Solution Polarion[Polarion[]]]&#xD;&#xA;Solution Polarion&#xD;&#xA;Solution Polarion" />
+  <StartupProject value="{D21786AE-FACA-4D19-8E8D-102A315EFBD4}" />
+</Properties>

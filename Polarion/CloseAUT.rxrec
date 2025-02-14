@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="8cfbd078-76da-4561-9520-70b423486f1c"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseAUT"
+	namespace="Polarion">
+	</codegen>
+	<variables>
+		<var
+		id="55446157-adf3-4669-a210-bfbc832cd598"
+		name="CloseAutProcessIDVar">
+			-1
+		</var>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="500ms"
+		method="CloseWindowByProcessID"
+		optional="False"
+		searchpropertyid="25486a39-e4ce-4616-8f0b-ba8bd4c528c0">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ProcessID"
+				variable="CloseAutProcessIDVar">
+				</binding>
+			</bindings>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="de497acb-8fc3-4b95-bed7-38af560f280a"
+	name="PolarionRepository"
+	relativepath="PolarionRepository.rxrep">
+		<codegen
+		classname="PolarionRepository"
+		namespace="Polarion">
+		</codegen>
+		<rootfolder
+		id="bec37f0b-6dd8-44a9-92a2-ef938304f3db"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
