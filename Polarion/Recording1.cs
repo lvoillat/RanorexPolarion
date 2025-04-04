@@ -123,13 +123,13 @@ namespace Polarion
             repo.Login.Text.PressKeys("SysReq for Ranorex");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Login.ShouldHave' at 8;8.", repo.Login.ShouldHaveInfo, new RecordItemIndex(11));
-            repo.Login.ShouldHave.Click("8;8");
-            Delay.Milliseconds(0);
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Login.ShouldHave' at 8;8.", repo.Login.ShouldHaveInfo, new RecordItemIndex(11));
+            //repo.Login.ShouldHave.Click("8;8");
+            //Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Login.MustHave' at 41;12.", repo.Login.MustHaveInfo, new RecordItemIndex(12));
-            repo.Login.MustHave.Click("41;12");
-            Delay.Milliseconds(0);
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Login.MustHave' at 41;12.", repo.Login.MustHaveInfo, new RecordItemIndex(12));
+            //repo.Login.MustHave.Click("41;12");
+            //Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Login.SomeBodyTag' at 243;51.", repo.Login.SomeBodyTagInfo, new RecordItemIndex(13));
             repo.Login.SomeBodyTag.Click("243;51");

@@ -7,5 +7,9 @@
     <Element value="Polarion.rxtst" />
     <Element value="Recording1.rxrec" />
   </Array>
-  <Properties name="projectSavedData" />
+  <Properties name="projectSavedData">
+    <Properties name="customTool">
+      <runOnBuild value="False" />
+    </Properties>
+  </Properties>
 </Properties>

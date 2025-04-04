@@ -104,11 +104,11 @@
                                             </xsl:when>
                                             <xsl:otherwise>
                                                 <xsl:if test="not(@testentry-activity-type = 'testmodule')">
-                                                    <input type="button" onclick="expandTestcases()" class="exButton" value="Expand test containers" disabled="disabled" />
+                                                    <input type="button" onclick="expandTestcases()" class="exButton" value="Expand test containers" />
                                                 </xsl:if>
-                                                <input type="button" onclick="expandDetails()" class="exButton" value="Expand details" disabled="disabled" />
-                                                <input type="button" onclick="collapseAll()" class="exButton" value="Collapse all" disabled="disabled" />
-                                                <em style="color: #888; font-size: 12px;">Disabled due to performance reasons.</em>
+                                                <input type="button" onclick="expandDetails()" class="exButton" value="Expand details" />
+                                                <input type="button" onclick="collapseAll()" class="exButton" value="Collapse all" />
+                                                <em style="color: #888; font-size: 12px;">Expanding/collapsing the details could take a longer time due to the large number of items.</em>
                                             </xsl:otherwise>
                                         </xsl:choose>
                                     </div>
